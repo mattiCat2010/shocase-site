@@ -1,0 +1,7 @@
+.nav-bar-links p {
+    font-size: 15px;
+}
+
+.nav-bar-links .active {
+    font-size: 16px;
+}
