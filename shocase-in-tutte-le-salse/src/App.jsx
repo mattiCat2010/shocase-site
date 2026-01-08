@@ -8,6 +8,7 @@ import './App.css'
 
 function App() {
   return (
+    // BrowserRouter is in main.jsx
     <Routes>
       <Route path="/" element={<HomePage />} />
     </Routes>
