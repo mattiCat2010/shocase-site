@@ -1,7 +1,16 @@
-.nav-bar-links p {
-    font-size: 15px;
+.nav-bar-links a {
+    font-size: 16px;
+    margin: 10px;
+    text-decoration: none;
+    color: #ffff;
 }
 
 .nav-bar-links .active {
-    font-size: 16px;
+    font-size: 24px;
+}
+
+.nav-bar-links {
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
 }
