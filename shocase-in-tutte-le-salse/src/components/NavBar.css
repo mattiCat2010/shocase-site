@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     z-index: 1000;
-    background: #3D3D3D;
+    /* background: #3D3D3D; */
     background: linear-gradient(180deg, rgba(61, 61, 61, 0.75) 0%, rgba(61, 61, 61, 0.2) 100%);
     backdrop-filter: blur(12.6px);
     padding: 0 20px;
@@ -18,6 +18,12 @@
     height: 100px;
 }
 
-.navbar-links {
+.nav-bar-links {
     margin-left: auto;
+}
+
+@media (max-width: 745px) {
+    .nav-bar-links {
+        display: none;
+    }
 }
